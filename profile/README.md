@@ -32,20 +32,6 @@ parameters that can be set on the instance and reports that it generates while i
 
 An audio cloud system could also include an orchestrator.
 
-# Directory layout
-
-| Path               | Description                                                                                   |
-|--------------------|-----------------------------------------------------------------------------------------------|
-| `src/common`       | Types shared by all APIs                                                                      |
-| `src/api`          | Metadata for APIs                                                                             |
-| `src/cloud`        | Cloud Service API requests and responses, REST paths                                          |
-| `src/domain`       | Domain Service API requests and responses, REST paths, Kafka messages, WebSocket/RTC messages |
-| `src/driver`       | Instance Driver API requests and responses, REST paths, NATS subjects                         |
-| `src/audio_engine` | Audio Engine API requests and responses, REST paths, NATS subjects                            |
-| `src/app`          | Apps API requests and responses, REST paths                                                   |
-| `src/converter`    | Format converter API requests and responses, REST paths                                       |
-| `src/waveformer`   | Waveform generator API requests and responses, REST paths                                     |
-
 # Reference implementation
 
 The `api` repository contains shared type definitions and APIs while other repositories contain reference
